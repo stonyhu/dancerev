@@ -137,10 +137,10 @@
                             <a href="https://stonyhu.github.io/">Huang Hu*</a><sup>2</sup>
 
                         </li><li class="list-inline-item">
-                            <a href="https://sites.google.com/view/wei-wu-homepage">Wei Wu</a><sup>2</sup>
+                            <a href="https://sites.google.com/view/wei-wu-homepage">Wei Wu</a><sup>3</sup>
 
                         </li><li class="list-inline-item">
-                            <a href="http://www.sp.nitech.ac.jp/~swdkei/index.html">Kei Sawada</a><sup>2</sup>
+                            <a href="http://www.sp.nitech.ac.jp/~swdkei/index.html">Kei Sawada</a><sup>4</sup>
 
                         </li><li class="list-inline-item">
                             <a href="hhttp://homepage.fudan.edu.cn/zhangmi/en">Mi Zhang</a><sup>1</sup>
@@ -150,7 +150,10 @@
                     </li></ul>
                     <p id="institution">
                         <sup>1</sup>Fudan University &nbsp;&nbsp;&nbsp;&nbsp;
-                        <sup>2</sup>Microsoft STCA
+                        <sup>2</sup>Microsoft STCA &nbsp;&nbsp;&nbsp;&nbsp;
+                        <sup>3</sup>Meituan &nbsp;&nbsp;&nbsp;&nbsp;
+                        <sup>4</sup>Rinna AI <br>
+                        (3 & 4: Work done while at Microsoft STCA)
                     </p>
                 </div>
             </div>
@@ -204,10 +207,10 @@
                     </div> -->
                     <p class="text-justify">
 
-                        We present a transformer-LSTM hybrid architecture for the music-to-dance synthesis task and propose a novel curriculum learning strategy, i.e., dynamic auto-condition learning approach, to alleviate the severe exposure bias issue in long-term dance motion sequence generation with music. 
+                        We present a transformer-LSTM hybrid architecture for the music-to-dance synthesis and propose a novel curriculum learning strategy, i.e., dynamic auto-condition learning approach, to alleviate the severe exposure bias issue in long-term dance motion sequence generation with music. 
                         Besides, we also release a new <a href="https://drive.google.com/file/d/1Xc2cpzkGc7Xh8NVa2ehFmapZJZCtBSH0/view" target="_blank">2D dance dataset</a>, which contains three-style dance motions (i.e., ballet, hiphop and jp-pop) extracted from the real dance videos available online.
                         Our model generates realistic and smooth dance motions, which can last one minute under 15 frame per second (FPS) and are style-consistent and beat-matching with the music from test set.
-                        With the help of 3D human pose reconstruction and animation driving software, this technique can be used to drive various 3D character models, such as the 3D model of  <a href="https://en.wikipedia.org/wiki/Hatsune_Miku" target="_blank">Hatsune Miku</a>, and has the great potential for the virtual advertisement video generation.
+                        With the help of 3D human pose reconstruction and animation software, this technique can be used to drive various 3D character models, such as the 3D model of  <a href="https://en.wikipedia.org/wiki/Hatsune_Miku" target="_blank">Hatsune Miku</a>, and has the great potential for the virtual advertisement video generation.
                     </p>
 
                 </div>
@@ -224,10 +227,7 @@
                 <div class="col-md-8 mx-auto">
                     <h4><strong>More Dance Generation Samples</strong></h4>
                     <p class="text-justify">
-                        Here we show sampled dance motions generated using our proposed model. Given a 2 second seed 
-                        motion sequence and a piece of music, our model can generate long-range non-freezing dance motion
-                        following the music rhythm. We demonstrate our generated dance motions using
-                        the avatars from <a href="https://www.mixamo.com/#/" target="_blank">Mixamo</a>.
+                        Here we show more generated dance samples.
                     </p>
 <!--                     <div class="row pt-1 pb-1">
                         <div class="col-md-6">
@@ -324,7 +324,7 @@
             <div class="row mb-2">
                 <div class="col-md-8 mx-auto">
                     <h4 class="mb-3">Bibtex</h4>
-                    <div class="bibtex" style="font-size:14px">@inproceedings{huang2021,
+                    <div class="bibtex" style="font-size:13px">@inproceedings{huang2021,
       title={ Dance Revolution: Long-Term Dance Generation with Music via Curriculum Learning},
       author={Ruozi Huang and Huang Hu and Wei Wu and Kei Sawada and Mi Zhang and Daxin Jiang},
       booktitle={International Conference on Learning Representations},
@@ -337,7 +337,7 @@
                     <h4><strong>More Thanks</strong></h4>
                     <p class="text-justify">
                         We thank Kazuna Tsuboi, Sayuri Nishida, Shuo Wang, Chengcheng Liu and Zhan (Cliff) Chen for the generous support, insightful discussion and kind help on this research project.
-                        We also thank Kazuna Tsboi for authorizing us the usage of her portrait in demo video.
+                        We also thank Kazuna Tsboi for authorizing us the usage of her portrait in synthesized demo video.
                         Besides, many thanks to authors of <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank">OpenPose</a>, <a href="https://github.com/NVlabs/Dancing2Music" target="_blank">Dancing2Music</a>, <a href="https://github.com/allenai/longformer" target="_blank">LongFormer</a>, <a href="https://github.com/NVIDIA/vid2vid" target="_blank">Video-to-Video</a> and <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Ci_Optimizing_Network_Structure_for_3D_Human_Pose_Estimation_ICCV_2019_paper.pdf" target="_blank">3D Human Pose Reconstruction</a>.
                         This website is inspired by the template of <a href="https://alexyu.net/pixelnerf/" target="_blank">pixelnerf</a> and special thanks to the author.
                     </p>
