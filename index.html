@@ -1,5 +1,4 @@
 
-<!-- saved from url=(0041)https://google.github.io/aichoreographer/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><doctype html="">
     <title>Dance Revolution: Long-Term Dance Generation with Music via Curriculum Learning</title>
 
@@ -204,13 +203,11 @@
                         </div>
                     </div> -->
                     <p class="text-justify">
-                        We present a crossmodal transformer-based 
-                        architecture model and a new 3D dance dataset <a href="https://google.github.io/aist_plusplus/" target="_blank">AIST++</a>,
-                        which contains 3D motion reconstructed from real dancers paired with music 
-                        (left). 
-                        Our model generates realistic smooth dance motion in 3D with full
-                        translation, which allow applications such as automatic motion retargeting 
-                        to a novel character (right).
+
+                        We present a transformer-LSTM hybrid architecture for the music-to-dance synthesis task and propose a novel curriculum learning strategy, i.e., dynamic auto-condition learning approach, to alleviate the severe exposure bias issue in long-term dance motion sequence generation with music. 
+                        Besides, we also release a new <a href="https://drive.google.com/file/d/1Xc2cpzkGc7Xh8NVa2ehFmapZJZCtBSH0/view" target="_blank">2D dance dataset</a>, which contains three-style dance motions (i.e., ballet, hiphop and jp-pop) extracted from the real dance videos available online.
+                        Our model generates realistic and smooth dance motions, which can last one minute under 15 frame per second (FPS) and are style-consistent and beat-matching with the music from test set.
+                        With the help of 3D human pose reconstruction and animation driving software, this technique can be used to drive various 3D character models, such as the 3D model of  <a href="https://en.wikipedia.org/wiki/Hatsune_Miku" target="_blank">Hatsune Miku</a>, and has the great potential for the virtual advertisement video generation.
                     </p>
 
                 </div>
@@ -225,7 +222,7 @@
             </div>
             <div class="row mb-4">
                 <div class="col-md-8 mx-auto">
-                    <h4><strong>Dance Generation Results</strong></h4>
+                    <h4><strong>More Dance Generation Samples</strong></h4>
                     <p class="text-justify">
                         Here we show sampled dance motions generated using our proposed model. Given a 2 second seed 
                         motion sequence and a piece of music, our model can generate long-range non-freezing dance motion
@@ -339,15 +336,10 @@
                 <div class="col-md-8 mx-auto">
                     <h4><strong>More Thanks</strong></h4>
                     <p class="text-justify">
-                        We thank Chen Sun, Austin Myers, Bryan Seybold and Abhijit Kundu for helpful discussions.
-                        We thank Emre Aksan and Jiaman Li for sharing us the baseline code bases.
-                        We also thank Kevin Murphy for the early attempts on this direction, as well as Peggy Chi and Pan Chen 
-                        for the help on user study experiments.
-                        We thank Jordi Pont-Tuset for sharing us the dataset webpage template.
-                        And we thank Shunsuke Saito for letting us know about this amazing dataset.
-                        Besides, we also would like to thank the people who build and release the amazing 
-                        <a href="https://aistdancedb.ongaaccel.jp/" target="_blank">AIST Dance Video Dataset</a>. 
-                        This website is inspired by the template of <a href="https://alexyu.net/pixelnerf/" target="_blank">pixelnerf</a>.
+                        We thank Kazuna Tsuboi, Sayuri Nishida, Shuo Wang, Chengcheng Liu and Zhan (Cliff) Chen for the generous support, insightful discussion and kind help on this research project.
+                        We also thank Kazuna Tsboi for authorizing us the usage of her portrait in demo video.
+                        Besides, many thanks to authors of <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank">OpenPose</a>, <a href="https://github.com/NVlabs/Dancing2Music" target="_blank">Dancing2Music</a>, <a href="https://github.com/allenai/longformer" target="_blank">LongFormer</a>, <a href="https://github.com/NVIDIA/vid2vid" target="_blank">Video-to-Video</a> and <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Ci_Optimizing_Network_Structure_for_3D_Human_Pose_Estimation_ICCV_2019_paper.pdf" target="_blank">3D Human Pose Reconstruction</a>.
+                        This website is inspired by the template of <a href="https://alexyu.net/pixelnerf/" target="_blank">pixelnerf</a> and special thanks to the author.
                     </p>
                 </div>
             </div>
